@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multiplayer Chess</title>
+
+  <link rel="stylesheet"
+    href="https://unpkg.com/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css">
+
+  <style>
+    body { font-family: sans-serif; text-align: center; }
+    #board { width: 400px; margin: auto; }
+  </style>
+</head>
+<body>
+
+<h2>Multiplayer Chess</h2>
+<p>Share the same game ID to play together</p>
+
+<input id="gameId" placeholder="game id">
+<button onclick="start()">Start / Join</button>
+
+<div id="board"></div>
+
+<script src="https://unpkg.com/chess.js@1.0.0/chess.min.js"></script>
+<script src="https://unpkg.com/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
